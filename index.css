@@ -1,0 +1,74 @@
+/* styles.css */
+
+body {
+    background-color: #474444; /* Warna latar belakang hitam */
+    color: #ffffff; /* Warna teks putih */
+    font-family: Arial, sans-serif; /* Font yang digunakan */
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center; /* Menengahkan judul */
+    margin-bottom: 20px;
+    text-decoration: solid;
+   
+}
+
+form {
+    max-width: 400px; /* Lebar maksimum form */
+    margin: auto; /* Menengahkan form */
+    padding: 50px;
+    border: 3px solid #333; /* Border abu-abu gelap */
+    border-radius: 2px; /* Sudut melengkung */
+    background-color: #1e1e1e; /* Warna latar belakang form */
+}
+
+label {
+    display: block; /* Membuat label menjadi blok */
+    margin-bottom: 3px; /* Jarak bawah label */
+    margin-left: 3px;
+    margin-right: 5;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%; /* Lebar input dan select 100% */
+    padding: 10px; /* Padding dalam input */
+    margin-bottom: 15px; /* Jarak bawah input */
+    border: 1px solid #555; /* Border input */
+    border-radius: 3px; /* Sudut melengkung input */
+    background-color: #333; /* Warna latar belakang input */
+    color: #ffffff; /* Warna teks input */
+}
+
+button {
+    background-color: #6200ea; /* Warna tombol */
+    color: #ffffff; /* Warna teks tombol */
+    border: none; /* Tanpa border */
+    padding: 10px 15px; /* Padding tombol */
+    border-radius: 3px; /* Sudut melengkung tombol */
+    cursor: pointer; /* Kursor tangan saat hover */
+    margin-right: 10px; /* Jarak kanan tombol */
+}
+
+button:hover {
+    background-color: #ff0000; /* Warna tombol saat hover */
+}
+
+p {
+    text-align: center; /* Menengahkan teks */
+}
+
+a {
+    color: #a6ff00; /* Warna tautan */
+    text-decoration: none; /* Tanpa garis bawah */
+    display: block; /* Membuat tautan menjadi blok */
+    text-align: center; /* Menengahkan tautan */
+    margin-top: 20px; /* Jarak atas tautan */
+}
+
+a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
